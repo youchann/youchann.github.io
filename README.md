@@ -13,6 +13,10 @@ App Store Connect は提出時にプライバシーポリシーURLとサポー�
 | `hiit-forge/en/index.html` | `/hiit-forge/en/` | 同上（英語） |
 | `hiit-forge/privacy/index.html` | `/hiit-forge/privacy/` | HIIT Forge プライバシーポリシー（日本語）**← ASC のプライバシーポリシーURL** |
 | `hiit-forge/privacy/en/index.html` | `/hiit-forge/privacy/en/` | 同上（英語） |
+| `kabe/index.html` | `/kabe/` | Kabe サポート（日本語）**← ASC のサポートURL** |
+| `kabe/en/index.html` | `/kabe/en/` | 同上（英語） |
+| `kabe/privacy/index.html` | `/kabe/privacy/` | Kabe プライバシーポリシー（日本語）**← ASC のプライバシーポリシーURL** |
+| `kabe/privacy/en/index.html` | `/kabe/privacy/en/` | 同上（英語） |
 
 ## 方針
 
@@ -20,5 +24,7 @@ App Store Connect は提出時にプライバシーポリシーURLとサポー�
 - 外部リソースを一切読み込まない。アクセス解析・フォント・CDN・JavaScript なし
   （「何も収集しない」と書いたページがトラッカーを積んでいたら本末転倒なので）
 - 日本語と英語で**同一の事実**を書く。プライバシーポリシーで両言語の内容がずれるのは事故
+- **アプリ側のリポジトリで GitHub Pages を有効にしない**。同名リポジトリの Project Pages は
+  このユーザーサイトの同名パス（`youchann.github.io/kabe/` など）を上書きしてしまう
 - ポリシーの記述は実装より先に決まっている制約でもある。アプリ側の挙動を変えるときは、
   このページと矛盾しないか先に確認する（特に診断ログに含める項目）
