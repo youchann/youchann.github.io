@@ -67,6 +67,18 @@ footer{border-color:#333;color:#9a9a9a}
 </ul>
 <p>Note that due to how iOS schedules work, blocking may start or end a few minutes early or late at schedule boundaries.</p>
 
+<h3>Some apps in a group aren't blocked</h3>
+<p>If a group selects a whole category (such as Entertainment or Social), apps in Settings → Screen Time → Always Allowed on your device are not blocked. This is how iOS works, and Kabe can't see what is in your Always Allowed list.</p>
+<p>Either of the following fixes it.</p>
+<ul>
+<li>Remove the app from the Always Allowed list</li>
+<li>Select the app individually instead of by category (apps selected individually are blocked even if they are in Always Allowed)</li>
+</ul>
+
+<h3>A video in Picture in Picture keeps playing</h3>
+<p>A video that was already playing in Picture in Picture when a block starts keeps playing. This is how iOS works, and Kabe can't stop it. Opening the app itself shows the block screen.</p>
+<p>If this bothers you, turn off Picture in Picture in the video app's settings, or turn off "Start PiP Automatically" in Settings → General → Picture in Picture.</p>
+
 <h3>Why can't I lift a block immediately?</h3>
 <p>That's by design. Any change that loosens a rule — removing an app, shortening a block window, raising a daily limit, deleting a group, ending a focus session early — requires a waiting period, and the rule stays active while you wait. Kabe prevents impulsive unblocking by design rather than by willpower. You can set the waiting period from 5 minutes to 24 hours in the app's Settings screen (shortening it also requires the waiting period).</p>
 
@@ -89,7 +101,7 @@ footer{border-color:#333;color:#9a9a9a}
 <p>Kabe requires no account and collects no personal data. The developer operates no servers and has integrated no analytics or advertising. By Apple's design, even the apps you select for blocking are not visible to the developer. See the <a href="/kabe/privacy/en/">Privacy Policy</a> for details.</p>
 
 <footer>
-<p>Last updated: July 29, 2026</p>
+<p>Last updated: October 23, 2026</p>
 <p>Developer: Yutaro Hayashi (independent developer)</p>
 <p><a href="/kabe/privacy/en/">Privacy Policy</a> · <a href="/kabe/">日本語</a></p>
 </footer>
