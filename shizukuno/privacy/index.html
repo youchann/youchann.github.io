@@ -57,7 +57,12 @@ footer{border-color:#333;color:#9a9a9a}
 
 <h2>2. YouTube API サービスの利用</h2>
 <p>本ツールは YouTube API サービスを利用しています。本ツールの利用には <a href="https://www.youtube.com/t/terms">YouTube 利用規約</a>が適用され、Google によるデータの取り扱いは <a href="https://policies.google.com/privacy">Google プライバシー ポリシー</a>に従います。</p>
-<p>本ツールが Google に求める権限は、運営者のチャンネルへの動画のアップロードと、その動画のサムネイルの設定に必要な範囲に限ります。投稿先が Shizukuno のチャンネルであることを確かめるために、運営者自身のチャンネルの基本情報（チャンネル ID など）を参照することがあります。ほかの方のチャンネル、動画、コメント、登録者の情報を取得することはありません。</p>
+<p>本ツールが Google に求める権限は、次の 2 つです。</p>
+<ul>
+<li>動画の管理（youtube.upload）: 運営者のチャンネルへの動画のアップロードと、その動画のサムネイルの設定に使います。</li>
+<li>YouTube アカウントの表示（youtube.readonly、読み取り専用）: 投稿先が Shizukuno のチャンネルであることの確認、同じ動画を二重に投稿していないかの確認、投稿した動画のタイトル・説明・公開設定・処理状況が意図どおりかの確認に使います。読み取るのは運営者自身のチャンネルとその動画の情報だけです。</li>
+</ul>
+<p>ほかの方のチャンネル、動画、コメント、登録者の情報を取得することはありません。</p>
 
 <h2>3. 本ツールが扱う情報と保存場所</h2>
 <ul>
@@ -92,7 +97,7 @@ footer{border-color:#333;color:#9a9a9a}
 日本語・英語で受け付けています。</p>
 
 <footer>
-<p>制定日・最終更新日: 2026-11-08</p>
+<p>制定日: 2026-11-08 / 最終更新日: 2026-11-08（読み取り専用の権限の記載を追加）</p>
 <p>運営: Yutaro Hayashi（個人）</p>
 <p><a href="/shizukuno/">Shizukuno について</a> ・ <a href="/shizukuno/privacy/en/">English</a></p>
 </footer>
