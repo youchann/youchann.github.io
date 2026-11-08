@@ -57,7 +57,12 @@ footer{border-color:#333;color:#9a9a9a}
 
 <h2>2. Use of YouTube API Services</h2>
 <p>This tool uses YouTube API Services. Use of this tool is subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google handles data in accordance with the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
-<p>The permissions this tool requests from Google are limited to what is needed to upload videos to the operator's channel and to set thumbnails for those videos. To confirm that the destination is the Shizukuno channel, it may read basic information about the operator's own channel (such as the channel ID). It never retrieves information about anyone else's channels, videos, comments, or subscribers.</p>
+<p>This tool requests the following two permissions from Google.</p>
+<ul>
+<li>Manage your YouTube videos (youtube.upload): used to upload videos to the operator's channel and to set thumbnails for those videos.</li>
+<li>View your YouTube account (youtube.readonly, read-only): used to confirm that the destination is the Shizukuno channel, to check that the same video has not already been uploaded, and to confirm that the title, description, privacy setting, and processing status of an uploaded video are as intended. It reads only the operator's own channel and its videos.</li>
+</ul>
+<p>It never retrieves information about anyone else's channels, videos, comments, or subscribers.</p>
 
 <h2>3. Information the tool handles and where it is stored</h2>
 <ul>
@@ -92,7 +97,7 @@ footer{border-color:#333;color:#9a9a9a}
 Inquiries are accepted in English and Japanese.</p>
 
 <footer>
-<p>Effective and last updated: November 8, 2026</p>
+<p>Effective: November 8, 2026 / Last updated: November 8, 2026 (added the read-only permission)</p>
 <p>Operated by Yutaro Hayashi (individual)</p>
 <p><a href="/shizukuno/en/">About Shizukuno</a> · <a href="/shizukuno/privacy/">日本語</a></p>
 </footer>
