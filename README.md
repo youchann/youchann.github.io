@@ -2,7 +2,8 @@
 
 個人開発アプリのサポートページとプライバシーポリシーを配信する GitHub Pages のリポジトリ。
 
-App Store Connect は提出時にプライバシーポリシーURLとサポートURLを必須で要求するため、その実体をここに置いている。独自ドメインは取得しておらず、ホスティング費用は¥0。
+App Store Connect は提出時にプライバシーポリシーURLとサポートURLを必須で要求するため、その実体をここに置いている。
+Google Cloud の OAuth 同意画面も、外部向けの本番モードにするにはホームページ URL とプライバシーポリシー URL を必須で要求するので、YouTube 投稿ツール（ai-bgm-lab リポジトリ）の分もここに置く。独自ドメインは取得しておらず、ホスティング費用は¥0。
 
 ## 構成
 
@@ -17,6 +18,10 @@ App Store Connect は提出時にプライバシーポリシーURLとサポー�
 | `kabe/en/index.html` | `/kabe/en/` | 同上（英語） |
 | `kabe/privacy/index.html` | `/kabe/privacy/` | Kabe プライバシーポリシー（日本語）**← ASC のプライバシーポリシーURL** |
 | `kabe/privacy/en/index.html` | `/kabe/privacy/en/` | 同上（英語） |
+| `shizukuno/index.html` | `/shizukuno/` | YouTube チャンネル Shizukuno の紹介（日本語）**← Google OAuth のホームページ URL** |
+| `shizukuno/en/index.html` | `/shizukuno/en/` | 同上（英語） |
+| `shizukuno/privacy/index.html` | `/shizukuno/privacy/` | 投稿ツール Shizukuno Uploader のプライバシーポリシー（日本語）**← Google OAuth のプライバシーポリシー URL** |
+| `shizukuno/privacy/en/index.html` | `/shizukuno/privacy/en/` | 同上（英語） |
 
 ## 方針
 
