@@ -18,10 +18,8 @@ Google Cloud の OAuth 同意画面も、外部向けの本番モードにする
 | `kabe/en/index.html` | `/kabe/en/` | 同上（英語） |
 | `kabe/privacy/index.html` | `/kabe/privacy/` | Kabe プライバシーポリシー（日本語）**← ASC のプライバシーポリシーURL** |
 | `kabe/privacy/en/index.html` | `/kabe/privacy/en/` | 同上（英語） |
-| `maitsuki/index.html` | `/maitsuki/` | まいつき サポート（日本語）**← ASC のサポートURL** |
-| `maitsuki/en/index.html` | `/maitsuki/en/` | 同上（英語） |
-| `maitsuki/privacy/index.html` | `/maitsuki/privacy/` | まいつき プライバシーポリシー（日本語）**← ASC のプライバシーポリシーURL** |
-| `maitsuki/privacy/en/index.html` | `/maitsuki/privacy/en/` | 同上（英語） |
+| `maitsuki/index.html` | `/maitsuki/` | まいつき サポート（日本語のみ。アプリが日本語のみのため）**← ASC のサポートURL** |
+| `maitsuki/privacy/index.html` | `/maitsuki/privacy/` | まいつき プライバシーポリシー（日本語のみ）**← ASC のプライバシーポリシーURL** |
 | `shizukuno/index.html` | `/shizukuno/` | YouTube チャンネル Shizukuno の紹介（日本語）**← Google OAuth のホームページ URL** |
 | `shizukuno/en/index.html` | `/shizukuno/en/` | 同上（英語） |
 | `shizukuno/privacy/index.html` | `/shizukuno/privacy/` | 投稿ツール Shizukuno Uploader のプライバシーポリシー（日本語）**← Google OAuth のプライバシーポリシー URL** |
