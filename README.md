@@ -20,6 +20,8 @@ Google Cloud の OAuth 同意画面も、外部向けの本番モードにする
 | `kabe/privacy/en/index.html` | `/kabe/privacy/en/` | 同上（英語） |
 | `maitsuki/index.html` | `/maitsuki/` | まいつき サポート（日本語のみ。アプリが日本語のみのため）**← ASC のサポートURL** |
 | `maitsuki/privacy/index.html` | `/maitsuki/privacy/` | まいつき プライバシーポリシー（日本語のみ）**← ASC のプライバシーポリシーURL** |
+| `oshi-tsucho/index.html` | `/oshi-tsucho/` | 推し通帳 サポート（日本語のみ。アプリが日本語のみのため）**← ASC のサポートURL** |
+| `oshi-tsucho/privacy/index.html` | `/oshi-tsucho/privacy/` | 推し通帳 プライバシーポリシー（日本語のみ）**← ASC のプライバシーポリシーURL** |
 | `shizukuno/index.html` | `/shizukuno/` | YouTube チャンネル Shizukuno の紹介（日本語）**← Google OAuth のホームページ URL** |
 | `shizukuno/en/index.html` | `/shizukuno/en/` | 同上（英語） |
 | `shizukuno/privacy/index.html` | `/shizukuno/privacy/` | 投稿ツール Shizukuno Uploader のプライバシーポリシー（日本語）**← Google OAuth のプライバシーポリシー URL** |
